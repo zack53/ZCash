@@ -25,6 +25,23 @@ class ZCash(Blockchain):
     def add_node(self, address):
         parsed_url = urlparse(address)
         self.nodes.add(parsed_url.netloc)
+
+    def replace_chain(self):
+        network = self.nodes
+        longest_chain = None
+        max_length = len(self.chain)
+        for node in network:
+            response = requests.get('http://'+node+'/get_chain')
+            if response.status_code == 200:
+                length = int(response.json()['length'])
+                chain = response.json()['chain']
+                if length > max_length and self.isChainValid(chain):
+                    max_length = length 
+                    longest_chain = chain
+        if longest_chain:
+            self.chain = longest_chain
+            return True
+        return False
 cash = ZCash()
 print(cash.addTransaction('test','user',100))
 print(cash.transactions)
