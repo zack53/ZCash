@@ -1,5 +1,5 @@
 from flask import Flask, jsonify
-from CryptoCurrency.ZCash import ZCash
+from BlockchainModule.ZCash import ZCash
 from uuid import uuid4
 nodeAddress = str(uuid4()).replace('-','')
 blockchain = ZCash()

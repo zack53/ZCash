@@ -1,9 +1,6 @@
-import sys
-import os
-sys.path.append(os.path.abspath('../BlockchainModule'))
-from Blockchain import Blockchain
+
+from BlockchainModule.Blockchain import Blockchain
 import requests
-from uuid import uuid4
 from urllib.parse import urlparse
 
 #Module 2 - Create a Cryptocurrency
@@ -43,5 +40,3 @@ class ZCash(Blockchain):
             return True
         return False
 cash = ZCash()
-print(cash.addTransaction('test','user',100))
-print(cash.transactions)

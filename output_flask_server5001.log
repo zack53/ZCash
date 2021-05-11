@@ -1,0 +1,104 @@
+ * Serving Flask app "flask_server" (lazy loading)
+ * Environment: development
+ * Debug mode: on
+ * Running on http://localhost:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 118-442-041
+127.0.0.1 - - [11/May/2021 12:56:18] "[37mPOST /connect_node HTTP/1.1[0m" 201 -
+127.0.0.1 - - [11/May/2021 12:57:48] "[33mGET /mine_node HTTP/1.1[0m" 404 -
+127.0.0.1 - - [11/May/2021 12:58:04] "[37mGET /mine_block HTTP/1.1[0m" 200 -
+127.0.0.1 - - [11/May/2021 13:05:13] "[37mGET /mine_block?miner=A HTTP/1.1[0m" 200 -
+127.0.0.1 - - [11/May/2021 13:05:23] "[37mGET /get_chain HTTP/1.1[0m" 200 -
+ * Detected change in '/home/zack/Scripts/Blockchain/Blockchain A-Z/Blockchain_Flask_Server/routes/ReplaceChain.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 118-442-041
+127.0.0.1 - - [11/May/2021 14:00:23] "[37mGET /get_chain HTTP/1.1[0m" 200 -
+127.0.0.1 - - [11/May/2021 14:00:39] "[37mGET /mine_block?miner=A HTTP/1.1[0m" 200 -
+127.0.0.1 - - [11/May/2021 14:00:46] "[37mGET /get_chain HTTP/1.1[0m" 200 -
+ * Detected change in '/home/zack/Scripts/Blockchain/Blockchain A-Z/Blockchain_Flask_Server/BlockchainModule/ZCash.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 118-442-041
+127.0.0.1 - - [11/May/2021 14:02:52] "[37mGET /get_chain HTTP/1.1[0m" 200 -
+127.0.0.1 - - [11/May/2021 14:02:58] "[37mGET /mine_block?miner=A HTTP/1.1[0m" 200 -
+127.0.0.1 - - [11/May/2021 14:03:14] "[37mGET /replace_chain HTTP/1.1[0m" 200 -
+127.0.0.1 - - [11/May/2021 14:04:08] "[37mGET /get_chain HTTP/1.1[0m" 200 -
+ * Detected change in '/home/zack/Scripts/Blockchain/Blockchain A-Z/Blockchain_Flask_Server/BlockchainModule/ZCash.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 118-442-041
+127.0.0.1 - - [11/May/2021 14:05:46] "[37mGET /get_chain HTTP/1.1[0m" 200 -
+127.0.0.1 - - [11/May/2021 14:05:48] "[37mGET /get_chain HTTP/1.1[0m" 200 -
+127.0.0.1 - - [11/May/2021 14:05:53] "[37mGET /replace_chain HTTP/1.1[0m" 200 -
+127.0.0.1 - - [11/May/2021 14:06:01] "[37mGET /get_chain HTTP/1.1[0m" 200 -
+ * Detected change in '/home/zack/Scripts/Blockchain/Blockchain A-Z/Blockchain_Flask_Server/BlockchainModule/ZCash.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 118-442-041
+ * Detected change in '/home/zack/Scripts/Blockchain/Blockchain A-Z/Blockchain_Flask_Server/BlockchainModule/ZCash.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 118-442-041
+ * Detected change in '/home/zack/Scripts/Blockchain/Blockchain A-Z/Blockchain_Flask_Server/BlockchainModule/ZCash.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 118-442-041
+ * Detected change in '/home/zack/Scripts/Blockchain/Blockchain A-Z/Blockchain_Flask_Server/BlockchainModule/ZCash.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 118-442-041
+127.0.0.1 - - [11/May/2021 14:08:50] "[37mGET /get_chain HTTP/1.1[0m" 200 -
+ * Detected change in '/home/zack/Scripts/Blockchain/Blockchain A-Z/Blockchain_Flask_Server/BlockchainModule/ZCash.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 118-442-041
+ * Detected change in '/home/zack/Scripts/Blockchain/Blockchain A-Z/Blockchain_Flask_Server/BlockchainModule/ZCash.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 118-442-041
+ * Detected change in '/home/zack/Scripts/Blockchain/Blockchain A-Z/Blockchain_Flask_Server/BlockchainModule/ZCash.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 118-442-041
+ * Detected change in '/home/zack/Scripts/Blockchain/Blockchain A-Z/Blockchain_Flask_Server/BlockchainModule/ZCash.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 118-442-041
+ * Detected change in '/home/zack/Scripts/Blockchain/Blockchain A-Z/Blockchain_Flask_Server/BlockchainModule/ZCash.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 118-442-041
+127.0.0.1 - - [11/May/2021 14:13:00] "[37mGET /get_chain HTTP/1.1[0m" 200 -
+127.0.0.1 - - [11/May/2021 14:13:03] "[37mGET /get_chain HTTP/1.1[0m" 200 -
+127.0.0.1 - - [11/May/2021 14:13:09] "[37mGET /get_chain HTTP/1.1[0m" 200 -
+127.0.0.1 - - [11/May/2021 14:13:16] "[37mGET /get_chain HTTP/1.1[0m" 200 -
+127.0.0.1 - - [11/May/2021 14:13:18] "[37mGET /get_chain HTTP/1.1[0m" 200 -
+127.0.0.1 - - [11/May/2021 14:13:20] "[37mGET /get_chain HTTP/1.1[0m" 200 -
+127.0.0.1 - - [11/May/2021 14:13:22] "[37mGET /get_chain HTTP/1.1[0m" 200 -
+127.0.0.1 - - [11/May/2021 14:13:53] "[37mPOST /connect_node HTTP/1.1[0m" 201 -
+127.0.0.1 - - [11/May/2021 14:14:02] "[37mGET /mine_block?miner=A HTTP/1.1[0m" 200 -
+127.0.0.1 - - [11/May/2021 14:14:06] "[37mGET /replace_chain HTTP/1.1[0m" 200 -
+127.0.0.1 - - [11/May/2021 14:14:15] "[37mGET /get_chain HTTP/1.1[0m" 200 -
+ * Detected change in '/home/zack/Scripts/Blockchain/Blockchain A-Z/Blockchain_Flask_Server/BlockchainModule/ZCash.py', reloading
+{'127.0.0.1:5003', '127.0.0.1:5002'}
+127.0.0.1:5003
+200
+127.0.0.1:5002
+200
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 118-442-041
+127.0.0.1 - - [11/May/2021 14:14:41] "[37mPOST /connect_node HTTP/1.1[0m" 201 -
+127.0.0.1 - - [11/May/2021 14:14:48] "[37mGET /get_chain HTTP/1.1[0m" 200 -
+127.0.0.1 - - [11/May/2021 14:14:51] "[37mGET /mine_block?miner=A HTTP/1.1[0m" 200 -
+127.0.0.1 - - [11/May/2021 14:14:57] "[37mGET /get_chain HTTP/1.1[0m" 200 -
+127.0.0.1 - - [11/May/2021 14:19:09] "[37mGET /get_chain HTTP/1.1[0m" 200 -
+127.0.0.1 - - [11/May/2021 14:20:06] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+127.0.0.1 - - [11/May/2021 14:20:19] "[37mPOST /add_transaction HTTP/1.1[0m" 201 -
+127.0.0.1 - - [11/May/2021 14:21:10] "[37mPOST /add_transaction HTTP/1.1[0m" 201 -
+127.0.0.1 - - [11/May/2021 14:21:16] "[37mGET /mine_block?miner=A HTTP/1.1[0m" 200 -
+127.0.0.1 - - [11/May/2021 14:21:22] "[37mGET /get_chain HTTP/1.1[0m" 200 -
+127.0.0.1 - - [11/May/2021 14:21:51] "[37mGET /get_chain HTTP/1.1[0m" 200 -
+127.0.0.1 - - [11/May/2021 14:22:13] "[37mGET /replace_chain HTTP/1.1[0m" 200 -

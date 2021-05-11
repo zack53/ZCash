@@ -1,5 +1,4 @@
-from flask_server import app, blockchain
-from flask import Flask, request
+from flask_server import app
 
 @app.route('/')
 def rootRoute():

@@ -1,5 +1,5 @@
 from flask_server import app, blockchain
-from flask import Flask, request
+from flask import request
 
 @app.route('/connect_node', methods = ['POST'])
 def connect_node():

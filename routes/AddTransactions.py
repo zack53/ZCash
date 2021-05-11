@@ -1,5 +1,5 @@
 from flask_server import app, blockchain
-from flask import Flask, request
+from flask import request
 
 @app.route('/add_transaction', methods = ['POST'])
 def add_transaction():

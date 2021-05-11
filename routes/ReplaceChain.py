@@ -1,10 +1,8 @@
-from CryptoCurrency.ZCash import ZCash
 from flask_server import app, blockchain
-from flask import Flask, request
 
 @app.route('/replace_chain', methods = ['GET'])
 def replace_chain():
-    isChainReplaced = blockchain.replace_chain(blockchain.chain)
+    isChainReplaced = blockchain.replace_chain()
     if isChainReplaced:
         response = {
                 'message' : 'The node had a different chains so the chain was replaced with the longest.',
