@@ -10,6 +10,7 @@ class Blockchain:
         self.chain = []
         self.transactions = []
         self.create_block(proof = 1, previous_hash = '0')
+        self.nodes = set()
 
     def create_block(self, proof, previous_hash):
         block = {
@@ -26,11 +27,11 @@ class Blockchain:
     def getPreviousBlock(self):
         return self.chain[-1]
 
-    def proofOfWork(self, previos_proof):
+    def proofOfWork(self, previous_proof):
         new_proof = 1
         check_proof = False
         while not check_proof:
-            hash_operation = hashlib.sha256(str(new_proof**2 - previos_proof**2).encode()).hexdigest()
+            hash_operation = hashlib.sha256(str(new_proof**2 - previous_proof**2).encode()).hexdigest()
             if hash_operation[:4] == '0000':
                 check_proof = True
             else:
@@ -50,7 +51,7 @@ class Blockchain:
                 return False
             previous_proof = previous_block['proof']
             proof = block['proof']
-            hash_operation = hashlib.sha256(str(proof**2 - previos_proof**2).encode()).hexdigest()
+            hash_operation = hashlib.sha256(str(proof**2 - previous_proof**2).encode()).hexdigest()
             if hash_operation[:4] != '0000':
                 return False
             #Increment for next while loop
