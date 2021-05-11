@@ -1,6 +1,6 @@
 
 from BlockchainModule.Blockchain import Blockchain
-import requests
+import requests, datetime
 from urllib.parse import urlparse
 
 #Module 2 - Create a Cryptocurrency
@@ -8,6 +8,7 @@ from urllib.parse import urlparse
 class ZCash(Blockchain):
     
     def __init__(self):
+        self.transactions = []
         Blockchain.__init__(self)
 
     def addTransaction(self, sender, receiver, amount):
@@ -39,4 +40,15 @@ class ZCash(Blockchain):
             self.chain = longest_chain
             return True
         return False
-cash = ZCash()
+
+    def create_block(self, proof, previous_hash):
+        block = {
+            'index' : len(self.chain)+1,
+            'timestamp' : str(datetime.datetime.now()),
+            'proof' : proof,
+            'previous_hash' : previous_hash,
+            'transactions' : self.transactions
+        }
+        self.transactions = []
+        self.chain.append(block)
+        return block
