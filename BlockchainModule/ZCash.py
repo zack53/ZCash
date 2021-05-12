@@ -3,8 +3,6 @@ from BlockchainModule.Blockchain import Blockchain
 import requests, datetime
 from urllib.parse import urlparse
 
-#Module 2 - Create a Cryptocurrency
-
 class ZCash(Blockchain):
     
     def __init__(self):
